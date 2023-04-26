@@ -25,6 +25,7 @@ int main(int argc, char *argv[]) {
     int listener_fd = create_listener_socket();
 
     // Create thread to accept new connections.
+    //start_acceptor_thread();
 
     return 0;
 }
